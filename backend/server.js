@@ -10,6 +10,7 @@ import adminRouter from "./routes/adminRoute.js";
 const app = express();
 const port = process.env.PORT || 4000;
 
+// const a =0;
 app.use(cors({
   origin: [
     "http://localhost:5173",
